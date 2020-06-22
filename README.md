@@ -1,7 +1,7 @@
 # LineBasedTime Client
-A simple protocol & its reference client implementation used to fetch time information from a remote server. The server implementation can be found [here](/ethernetlord/linebasedtime-server/).
+A simple protocol & its reference client implementation used to fetch time information from a remote server. The server implementation can be found [here](https://github.com/ethernetlord/linebasedtime-server).
 
-The documentation of the LineBasedTime protocol can be found in [this repository](/ethernetlord/linebasedtime-protocol/).
+The documentation of the LineBasedTime protocol can be found in [this repository](https://github.com/ethernetlord/linebasedtime-protocol).
 
 ---
 
@@ -68,7 +68,7 @@ If you compile the program (and don't perform a cleanup), you can also run it di
 ```
 ./linebasedtime_client localhost 5567
 ```
-The output will be the same as in the [first example](#Example%201).
+The output will be the same as in the [first example](#example-1).
 
 ---
 
@@ -80,7 +80,7 @@ Made by **EthernetLord**.
 
 
 ## Licensing
-This project is licensed under the **[MIT License](/ethernetlord/linebasedtime-client/blob/master/LICENSE)**.
+This project is licensed under the **[MIT License](LICENSE)**.
 
 
 ## Contributing
