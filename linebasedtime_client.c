@@ -293,6 +293,9 @@ void display_fetched_data(FETCHED_DATA *data) {
     } else {
       printf("\nYour machine's time is the same as server's!\n");
     }
+
+    if(g_options.extra_info && (cl_unix_time_u64 == data->unix_time - 1 || cl_unix_time_u64 == data->unix_time + 1))
+      printf("Minor difference can be caused by network latency.\n");
   }
 }
 
